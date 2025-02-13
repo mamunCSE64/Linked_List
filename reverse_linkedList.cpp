@@ -98,10 +98,10 @@ int main()
         }
         cout nl;
         // Reverse
-        node *tmp=head;current=head;
-        tmp=tmp->next;
+        node *tmp=head->next;
+        current=head;
         current->next=NULL;
-        head=current->next;
+        head->next=NULL;
         while(tmp!=NULL){
             head=tmp;
             tmp=tmp->next;

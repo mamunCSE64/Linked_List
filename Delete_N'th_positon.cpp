@@ -75,7 +75,7 @@ int main()
         for(i=0;i<n;i++){
             cin>>ar[i];
         }
-        int N,value; cin>>N>>value;
+        int N; cin>>N;
         node *head,*current;
         head=current=NULL;
         for(i=0;i<n;i++){
